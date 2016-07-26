@@ -23,6 +23,7 @@ public class PersonDatabase {
                 new Person("Bernadette"), 
                 new Person("Raj"), 
                 new Person("Priya"),
+                new Person("Marc"),
                 new Person("Valentino"));
     }
 
@@ -36,6 +37,6 @@ public class PersonDatabase {
         }
 
         throw new NotFoundException("Person with id \"" + id + "\" not found.");
-        
+
     }
 }
